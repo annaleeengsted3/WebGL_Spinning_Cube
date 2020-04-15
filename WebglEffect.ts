@@ -2,8 +2,7 @@ import { ShaderProgram } from "./ShaderProgram";
 import { ProgramInfo } from "./ProgramInfo";
 import { Buffers } from "./Buffers";
 import { Renderer } from "./Renderer";
-//webgl tutorial from MDN
-//to do: separate/refactor into smaller modules
+//to do: separate/refactor into smaller modules- buffer and renderer especially
 export class WebglEffect {
   private readonly canvas: HTMLCanvasElement;
   private _ctx: WebGLRenderingContext;
