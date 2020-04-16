@@ -1,9 +1,6 @@
 import ModuleWebgl from "./ModuleWebgl";
 
 export class App {
-  // id: number;
-  // name: string;
-  // testmodule: testModule;
   private _module: ModuleWebgl;
 
   constructor() {
